@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Care</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Pacifico&display=swap"
+        rel="stylesheet">    
+    </head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#homepage"><img src="images/logo.png" id="logo"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="item m-3" href="#homepage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="item m-3" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="item m-3" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Home Page-->
+    <div  class="container-fluid" id="homepage">
+        <div class="content container">
+            <h1>WE CARE</h1>
+            <h1>Your little steps, makes other's life better</h1>
+            <h2>Please DONATE!!!</h2>
+            <form class="m-5">
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JHfPDLqa9M2dgB"
+                    async> </script>
+            </form>
+        </div>
+    </div>
+    <!--About us-->
+    <div class="container-fluid" id="about">
+        <div class="container mt-5 aboutcontent">
+        <h3>About US</h3>
+        <p><span id="abouthead">WE CARE</span> is an non profit organisation which is consistently working for the betterment of orphans.</p>
+        <p>There are a staggering number of orphan children worldwide. In fact, more than 140 million children are considered
+        orphans by one definition or another. Sadly, there are orphan children who are even abandoned by the statistics! Who
+        counts those who live on the streets, in landfills and sewer systems?</p>
+        <h4>What Do You Think Happens To The Average Orphan Child?</h4>
+        <p>Beyond suffering and the ultimate tragedy of death, the children that do survive, often do so in ways that demeans and
+        criminalizes themselves and brings suffering to others as well. The sad reality though, is that if a good and caring
+        person is not there to provide what they need, who is? Pimps, child labor bosses, terrorists, rebel armies with child
+        soldiers, child traffickers, even less - than- good- willed- relatives who want a personal slave. The end result is
+        truly heartbreaking as many of the orphan children out there will die of starvation and issues related to malnutrition.
+        They will die from preventable diseases. They will die at the hands of others and themselves. They will spend much of
+        their life in jail. They will do harm to others and impact the world in a negative fashion.</p>
+        <h4>Why Help Orphans?</h4>
+        <p>Whether you are a Christian, Hindu, Muslim, Sikh or just a caring person who loves children
+        and recognizes our responsibility to the orphan children of the world...or both, there is no greater impact you can have
+        on the future of our planet, than you will have by caring for our greatest resource, the innocent and deserving children
+        who have been left to suffer. There are more than 140 million of them. Don't you think they will have an impact on our
+        world?</p>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="container-fluid" id="contact">
+        <div class="container concontent">
+            <i class="fa-brands fa-instagram m-4" ></i>
+            <i class="fa-brands fa-facebook m-4"></i>
+            <i class="fa-brands fa-whatsapp m-4"></i>
+            <i class="fa-solid fa-envelope m-4"></i>
+        </div>
+        <div class="container" id="query">
+            <form>
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" ">
+                      <div id=" emailHelp" class="form-text">We'll never share your email with anyone else. </div>
+                </div>
+                <div class="mb-0">
+                    <label for="msg" class="form-label">Enter your query</label>
+                </div>
+                <div class="mb-3">
+                     <textarea name="" id="msg" rows="2" cols="30"></textarea>
+                </div>
+                <button type="submit"  class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f335282f5b.js" crossorigin="anonymous"></script>
+</body>
+</html>
